@@ -48,7 +48,7 @@
 
         <project.build-time>${timestamp}</project.build-time>
 
-        <wildfly.version>27.0.1.Final</wildfly.version>
+        <wildfly.version>29.0.0.Final</wildfly.version>
         <wildfly.build-tools.version>1.2.13.Final</wildfly.build-tools.version>
         <wildfly.core.version>19.0.1.Final</wildfly.core.version>
         <wildfly.jakarta.adapters>true</wildfly.jakarta.adapters>
@@ -125,7 +125,7 @@
         <sun.activation.version>1.2.2</sun.activation.version>
         <org.glassfish.jaxb.xsom.version>2.3.3-b02</org.glassfish.jaxb.xsom.version>
         <undertow.version>2.2.24.Final</undertow.version>
-        <undertow-jakarta.version>2.3.2.Final</undertow-jakarta.version>
+        <undertow-jakarta.version>2.3.7.Final</undertow-jakarta.version>
         <wildfly-elytron.version>2.2.0.Final</wildfly-elytron.version>
         <elytron.undertow-server.version>1.9.0.Final</elytron.undertow-server.version>
         <jetty94.version>9.4.40.v20210413</jetty94.version>
@@ -209,7 +209,7 @@
         <surefire.memory.metaspace>96m</surefire.memory.metaspace>
         <surefire.memory.metaspace.max>512m</surefire.memory.metaspace.max>
         <surefire.memory.settings>-Xms${surefire.memory.Xms} -Xmx${surefire.memory.Xmx} -XX:MetaspaceSize=${surefire.memory.metaspace} -XX:MaxMetaspaceSize=${surefire.memory.metaspace.max}</surefire.memory.settings>
-        <surefire.system.args></surefire.system.args>
+        <surefire.system.args/>
 
         <!-- Tomcat versions -->
         <tomcat8.version>8.5.76</tomcat8.version>
@@ -278,7 +278,7 @@
         </developer>
     </developers>
 
-    <contributors></contributors>
+    <contributors/>
 
     <modules>
         <module>boms</module>
